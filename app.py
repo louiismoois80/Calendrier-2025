@@ -88,5 +88,5 @@ if 'jour_ouvert' in st.session_state:
                 st.error(f"L'image '{data['contenu']}' est introuvable. Vérifiez le dossier.")
 
         st.markdown("---")
-        with st.write("Bon courage 💩🎅🏻")
+        st.write("Bon courage 💩🎅🏻")
             
