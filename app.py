@@ -4,15 +4,35 @@ from datetime import datetime
 # Configuration de la page
 st.set_page_config(page_title="Calendrier de l'Avent Agreg", page_icon="🎄", layout="wide")
 
-st.title("🎄 Calendrier de l'Avent - Agrégation Externe 🎄")
+st.title("🎄 Calendrier de l'Avent 🎄 ")
 st.markdown("### Un exercice préliminaire par jour pour garder le rythme !")
 
 # --- CONFIGURATION DES EXERCICES ---
 # C'est ici que vous remplirez vos exercices.
 # Vous pouvez mettre du texte, du LaTeX, ou des noms de fichiers images.
 exercices = {
-    1: {"titre": "Sujet 2018 - Analyse", "type": "image", "contenu": "exo_jour_1.png"},
-    2: {"titre": "Sujet 2021 - Algèbre", "type": "latex", "contenu": r"Soit $G$ un groupe fini d'ordre $p^k$..."},
+    1: {"titre": "Analyse", "type": "image", "contenu": "ap_sujet_1999.png"},
+    2: {"titre": "Algèbre", "type": "image", "contenu": "mg_ext_2025.png"},
+    3: {"titre": "Algèbre", "type": "image", "contenu": "ap_ext_2001.png"},
+    4: {"titre": "Algèbre", "type": "image", "contenu": "mg_sujet_2022.png"},
+    5: {"titre": "Algèbre", "type": "image", "contenu": "mg_ext_2003.png"},
+    6: {"titre": "Algèbre", "type": "image", "contenu": "ap_sujet_2020.png"},
+    7: {"titre": "Algèbre", "type": "image", "contenu": "ap_sujet_2018.png"},
+    8: {"titre": "Algèbre", "type": "image", "contenu": "mg_sujet_2018.png"},
+    9: {"titre": "Algèbre", "type": "image", "contenu": "mg_sujet_2020.png"},
+    10: {"titre": "Algèbre", "type": "image", "contenu": "mg_sujet_2025.png"},
+    11: {"titre": "Algèbre", "type": "image", "contenu": "ap_ext_2025.png"},
+    12: {"titre": "Algèbre", "type": "image", "contenu": "ap_sujet_2005.png"},
+    13: {"titre": "Algèbre", "type": "image", "contenu": "mg_sujet_2013.png"},
+    14: {"titre": "Algèbre", "type": "image", "contenu": "mg_ext_2023.png"},
+    15: {"titre": "Algèbre", "type": "image", "contenu": "mg_sujet_2023.png"},
+    16: {"titre": "Algèbre", "type": "image", "contenu": "ap_ext_2024.png"},
+    17: {"titre": "Algèbre", "type": "image", "contenu": "ap_sujet_2010.png"},
+    18: {"titre": "Algèbre", "type": "image", "contenu": "ap_sujet_2006.png"},
+    19: {"titre": "Algèbre", "type": "image", "contenu": "mg_ext_2001.png"},
+    20: {"titre": "Algèbre", "type": "image", "contenu": "ap_sujet_2013.png"},
+    21: {"titre": "Algèbre", "type": "image", "contenu": "mg_sujet_2021.png"},
+    22: {"titre": "Algèbre", "type": "image", "contenu": "ap_sujet_2025.png"},
     # Ajoutez les autres jours ici...
 }
 
