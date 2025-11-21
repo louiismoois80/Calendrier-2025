@@ -88,5 +88,5 @@ if 'jour_ouvert' in st.session_state:
                 st.error(f"L'image '{data['contenu']}' est introuvable. Vérifiez le dossier.")
 
         st.markdown("---")
-        with st.expander("Voir un indice ou le corrigé (Spoiler)"):
-            st.write("Ici vous pouvez mettre une indication pour démarrer...")
+        with st.write("Bon courage 💩🎅🏻")
+            
