@@ -22,7 +22,7 @@ def verifier_acces():
         
         if st.button("Entrer"):
             # --- DÉFINISSEZ VOTRE MOT DE PASSE ICI ---
-            if pwd == "agreg2025":  
+            if pwd == "noel!!!":  
                 st.session_state['est_connecte'] = True
                 st.rerun()  # On recharge la page pour afficher le contenu
             else:
