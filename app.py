@@ -73,7 +73,7 @@ exercices = {
 # --- LOGIQUE DE DATE ---
 # Pour tester avant décembre, changez cette variable en une date fictive (ex: datetime(2025, 12, 10))
 # Pour la version finale, utilisez : main_tenant = datetime.now()
-main_tenant = datetime(2025,12,01)
+main_tenant = datetime(2025,12,1)
 
 # --- AFFICHAGE DE LA GRILLE ---
 cols = st.columns(4) # 4 colonnes pour faire un joli calendrier
