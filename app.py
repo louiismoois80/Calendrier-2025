@@ -5,38 +5,38 @@ from datetime import datetime
 st.set_page_config(page_title="Calendrier de l'Avent Agreg", page_icon="🎄", layout="wide")
 
 # --- FONCTION DE SÉCURITÉ ---
-def verifier_acces():
-    """Renvoie True si le mot de passe est bon, False sinon."""
+#def verifier_acces():
+    #"""Renvoie True si le mot de passe est bon, False sinon."""
     
     # Si l'utilisateur est déjà connecté dans sa session, on laisse passer
-    if st.session_state.get('est_connecte'):
-        return True
+    #if st.session_state.get('est_connecte'):
+    #    return True
 
     # Sinon, on affiche le formulaire de connexion
-    st.title("🔐 Accès Réservé - Agrégation")
+    #st.title("🔐 Accès Réservé - Agrégation")
     
-    col1, col2, col3 = st.columns([1, 2, 1])
-    with col2:
+    #col1, col2, col3 = st.columns([1, 2, 1])
+    #with col2:
         # Champ mot de passe
-        pwd = st.text_input("Mot de passe :", type="password")
+    #    pwd = st.text_input("Mot de passe :", type="password")
         
-        if st.button("Entrer"):
+    #    if st.button("Entrer"):
             # --- DÉFINISSEZ VOTRE MOT DE PASSE ICI ---
-            if pwd == "noel!!!":  
-                st.session_state['est_connecte'] = True
-                st.rerun()  # On recharge la page pour afficher le contenu
-            else:
-                st.error("Mot de passe incorrect.")
+    #        if pwd == "noel!!!":  
+    #            st.session_state['est_connecte'] = True
+    #            st.rerun()  # On recharge la page pour afficher le contenu
+    #        else:
+    #            st.error("Mot de passe incorrect.")
     
-    return False
+    #return False
 
 # --- DÉBUT DU PROGRAMME PRINCIPAL ---
 
 # On lance la vérification. 
 # Si c'est Faux, le script s'arrête là (return). 
 # Si c'est Vrai, il continue et lit le code du calendrier.
-if not verifier_acces():
-    st.stop()
+#if not verifier_acces():
+#    st.stop()
 
 st.title("🎄 Calendrier de l'Avent 🎄 ")
 st.markdown("### Un exercice préliminaire par jour pour garder le rythme !")
